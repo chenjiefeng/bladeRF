@@ -25,8 +25,7 @@ on platforms that do not support such functionality.
 #include <string.h>
 #include <stdio.h>
 
-/* #include "generic.h" */
-#include "getopt_long.h"
+#include "getopt.h"
 
 int    opterr = 1 ;
 int    optind = 1 ;
@@ -80,7 +79,7 @@ getopt_long(int argc, char *const argv[],
   static char *place = EMSG;	/* option letter processing */
   static int   optbegin  = 0 ;
   static int   optend    = 0 ;
-  char        *oli;		/* option letter list index */
+  const char   *oli;		    /* option letter list index */
   int          has_colon = 0 ;
   int          ret_val   = 0 ;
 
