@@ -1,6 +1,6 @@
 The various portions of this project are licensed as outlined below.
 
-Please see the legal/ directory for the text of each of the license.
+Please see the legal/license directory for the text of each of the license.
 
 HDL: MIT
 FX3 Firmware: MIT
@@ -8,10 +8,12 @@ Linux Driver (host/drivers/linux): GPLv2
 Host Libraries (host/lib): LGPLv2.1
 Host Utilities (host/utilities): GPLv2
 
-Note that the misc. source files in host/common vary in their licenses (but
-are compatible with above items they are linked with.) Please see the individual
-files for additional information regarding their licenses.
+Note that the misc. source files in host/common and host/utilities/commong vary
+in their licenses (but are compatible with above items they are linked with.)
+Please see the individual files and/or their associated files in the
+legal/license directory for additional information.
 
-All metadata (Makefiles, CMake scripts, etc.) are MIT license unless otherwise stated.
 
-Please contact bladeRF@Nuand.com for any question or concerns.
+All metadata and build scripts are MIT license unless otherwise stated.
+
+Please contact bladeRF@Nuand.com if you have any question or concerns.
